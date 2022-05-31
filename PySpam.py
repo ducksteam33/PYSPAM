@@ -15,7 +15,7 @@ def SendMessagereREP():
 
 
 root = tk.Tk()
-root.iconbitmap(default ='C:/Users/santi/Desktop/Python/bot/SPAM.ico')
+root.iconbitmap(default ='./SPAM.ico') #include path to icon
 root.title("PYSPAM")
 root.geometry("640x480")
 root.resizable(False, False)
